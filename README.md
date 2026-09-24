@@ -116,3 +116,4 @@ Possible future improvements include:
 ## Conclusion
 
 The **Sustainable Transportation Planner** demonstrates how web technologies can be used to create an interactive platform that encourages sustainable transportation choices and increases awareness of traffic congestion and vehicle emissions.
+This was a team work and the team members were: Joveen(myself), Jovita, Juanna, Joseph Varghese, Joseph Varghese and Joshua 
