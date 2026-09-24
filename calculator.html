@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emission Calculator - EcoRoute</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <h2>EcoRoute</h2>
+        <a href="references.html">References</a>
+        <a href="index.html">Home</a>
+        <a href="planner.html">Plan Your Trip</a>
+        <a href="compare.html">Compare Routes</a>
+        <a href="calculator.html">Emission Calculator</a>
+    </nav>
+
+
+    <!-- Emission Calculator -->
+
+    <section class="calculator-section">
+
+        <h1>Emission Calculator</h1>
+
+        <p>
+            Estimate fuel consumption and CO₂ emissions
+            based on your travel distance and vehicle type.
+        </p>
+
+
+        <div class="calculator-form">
+
+            <label for="distance">
+                Travel Distance (km)
+            </label>
+
+            <input
+                type="number"
+                id="distance"
+                placeholder="Enter distance in km"
+                min="1"
+            >
+
+
+            <label for="calculator-vehicle">
+                Vehicle Type
+            </label>
+
+            <select id="calculator-vehicle">
+
+                <option value="petrol">
+                    Petrol Car
+                </option>
+
+                <option value="diesel">
+                    Diesel Car
+                </option>
+
+                <option value="bike">
+                    Motorcycle
+                </option>
+
+            </select>
+
+
+            <button onclick="calculateEmission()">
+                Calculate Emissions
+            </button>
+
+        </div>
+
+
+        <!-- Calculation Result -->
+
+        <div id="emission-result"></div>
+
+
+        <p class="prototype-note">
+            Note: The result is an estimate based on assumed
+            vehicle efficiency and emission factors.
+        </p>
+
+    </section>
+
+</body>
+
+</html>
