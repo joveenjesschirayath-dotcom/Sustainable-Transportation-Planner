@@ -31,9 +31,9 @@ The Sustainable Transportation Planner provides users with interactive tools to 
 * **JavaScript** – Interactive features and calculations
 
 ## Project Structure
-sustainable-transportation-planner/
+sustainable-transportation-planner
 
-│
+
 ├── index.html
 
 ├── planner.html
