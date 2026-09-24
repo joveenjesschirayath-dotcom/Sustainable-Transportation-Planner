@@ -31,25 +31,16 @@ The Sustainable Transportation Planner provides users with interactive tools to 
 * **JavaScript** – Interactive features and calculations
 
 ## Project Structure
-sustainable-transportation-planner
-
-
-├── index.html
-
-├── planner.html
-
-├── compare.html
-
-├── calculator.html
-
-├── references.html
-
-├── style.css
-
-├── script.js
-
-└── README.md
-
+sustainable-transportation-planner:
+- index.html – Home page
+- planner.html – Trip planning and eco-route recommendation
+- compare.html – Route comparison
+- calculator.html – Emission calculator
+- references.html – References
+- css/style.css – Website styling
+- js/script.js – Website functionality
+- PPT/ – Group presentation
+- Report/ – Individual report
 ## Webpages
 
 ### Home – 'index.html'
