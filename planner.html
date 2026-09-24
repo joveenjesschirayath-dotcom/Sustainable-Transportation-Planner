@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Plan Your Trip - EcoRoute</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <nav>
+        <h2>EcoRoute</h2>
+        <a href="references.html">References</a>
+        <a href="index.html">Home</a>
+        <a href="planner.html">Plan Your Trip</a>
+        <a href="compare.html">Compare Routes</a>
+        <a href="calculator.html">Emission Calculator</a>
+    </nav>
+
+    <section class="planner-section">
+
+    <h1>Plan Your Trip</h1>
+
+    <p>
+        Enter your journey details to compare routes
+        based on travel efficiency and environmental impact.
+    </p>
+
+    <div class="planner-form">
+
+        <label for="source">Starting Point</label>
+        <input type="text" id="source" placeholder="Enter starting point">
+
+        <label for="destination">Destination</label>
+        <input type="text" id="destination" placeholder="Enter destination">
+
+        <label for="vehicle">Vehicle Type</label>
+        <select id="vehicle">
+            <option value="petrol">Petrol Car</option>
+            <option value="diesel">Diesel Car</option>
+            <option value="bike">Motorcycle</option>
+        </select>
+
+        <button onclick="findEcoRoute()">Find Eco Route</button>
+
+    </div>
+
+    <div id="route-result"></div>
+
+</section>
+
+</body>
+
+</html>
