@@ -1,0 +1,475 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+section:first-of-type {
+    text-align: center;
+    padding: 100px 10%;
+}
+
+section:first-of-type h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+section:first-of-type p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+section:first-of-type a {
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f5f9f6;
+    color: #1f2933;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid #e2e8e4;
+}
+
+nav h2 {
+    color: #16803c;
+}
+
+nav a {
+    color: #374151;
+}
+
+section:first-of-type {
+    background-color: #e8f5ec;
+}
+
+section:first-of-type h1 {
+    color: #14532d;
+}
+
+section:first-of-type a {
+    background-color: #16803c;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.content-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content-section h2 {
+    color: #14532d;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    max-width: 800px;
+}
+
+.content-section ul,
+.content-section ol {
+    padding-left: 25px;
+}
+
+.content-section li {
+    margin-bottom: 10px;
+}
+
+/* Plan Your Trip */
+
+.planner-section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.planner-section h1 {
+    color: #14532d;
+}
+
+.planner-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 30px auto 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.planner-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.planner-form input,
+.planner-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.planner-form button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #16803c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.planner-form button:hover {
+    background-color: #14532d;
+}
+
+
+/* Route Results */
+
+#route-result {
+    margin-top: 50px;
+}
+
+.route-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.route-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.route-card h3 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+.route-card p {
+    margin: 10px 0;
+}
+
+.eco-score {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e8f5ec;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eco-score span {
+    font-weight: 700;
+    color: #16803c;
+}
+
+
+/* Recommended Route */
+
+.recommended-route {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #e8f5ec;
+    border: 2px solid #16803c;
+    border-radius: 12px;
+}
+
+.recommended-route h2 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+.prototype-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+/* Compare Routes */
+
+.compare-section {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.compare-section h1 {
+    color: #14532d;
+}
+
+.compare-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.compare-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.compare-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.compare-form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #16803c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.compare-form button:hover {
+    background-color: #14532d;
+}
+
+
+/* Comparison Table */
+
+.comparison-table-container {
+    overflow-x: auto;
+    margin-top: 25px;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e2e8e4;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #e8f5ec;
+    color: #14532d;
+}
+
+.comparison-table td:first-child {
+    font-weight: 600;
+    text-align: left;
+}
+
+
+/* Recommendation */
+
+.comparison-recommendation {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #e8f5ec;
+    border: 2px solid #16803c;
+    border-radius: 12px;
+}
+
+.comparison-recommendation h2 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+/* Emission Calculator */
+
+.calculator-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.calculator-section h1 {
+    color: #14532d;
+}
+
+.calculator-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.calculator-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.calculator-form input,
+.calculator-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.calculator-form button {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #16803c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.calculator-form button:hover {
+    background-color: #14532d;
+}
+
+.emission-result-card {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #e8f5ec;
+    border: 2px solid #16803c;
+    border-radius: 12px;
+}
+
+.emission-result-card h2 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+.emission-result-card p {
+    margin: 12px 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 20px;
+    }
+
+    nav h2 {
+        width: auto;
+        margin: 0 0 5px 0;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 40px 6%;
+    }
+
+    section:first-of-type {
+        padding: 70px 6%;
+    }
+
+    section:first-of-type h1 {
+        font-size: 36px;
+    }
+
+    section:first-of-type p {
+        font-size: 17px;
+    }
+
+    .route-container {
+        flex-direction: column;
+    }
+
+    .planner-form,
+    .compare-form,
+    .calculator-form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .comparison-table-container {
+        overflow-x: auto;
+    }
+
+    .comparison-table {
+        min-width: 650px;
+    }
+
+}
+/* References */
+
+.references-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.references-section h1 {
+    color: #14532d;
+}
+
+.references-section ol {
+    padding-left: 25px;
+}
+
+.references-section li {
+    margin-bottom: 25px;
+}
+
+.references-section a {
+    color: #16803c;
+    text-decoration: none;
+}
+
+.references-section a:hover {
+    text-decoration: underline;
+}
