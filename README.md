@@ -32,14 +32,22 @@ The Sustainable Transportation Planner provides users with interactive tools to 
 
 ## Project Structure
 sustainable-transportation-planner/
+
 │
 ├── index.html
+
 ├── planner.html
+
 ├── compare.html
+
 ├── calculator.html
+
 ├── references.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
 
 ## Webpages
@@ -102,7 +110,7 @@ Possible future improvements include:
 
 1. Download or clone the repository.
 2. Open the project folder.
-3. Open `index.html` in a web browser.
+3. Open 'index.html' in a web browser.
 4. Navigate through the different pages using the website navigation.
 
 ## Conclusion
