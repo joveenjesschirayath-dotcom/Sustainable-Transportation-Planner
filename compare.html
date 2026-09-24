@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Compare Routes - EcoRoute</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <h2>EcoRoute</h2>
+        <a href="references.html">References</a>
+        <a href="index.html">Home</a>
+        <a href="planner.html">Plan Your Trip</a>
+        <a href="compare.html">Compare Routes</a>
+        <a href="calculator.html">Emission Calculator</a>
+    </nav>
+
+
+    <!-- Compare Routes Section -->
+
+    <section class="compare-section">
+
+        <h1>Compare Routes</h1>
+
+        <p>
+            Compare available routes based on travel time,
+            distance, traffic, fuel consumption and estimated
+            environmental impact.
+        </p>
+
+
+        <!-- Vehicle Selection -->
+
+        <div class="compare-form">
+
+            <label for="compare-vehicle">
+                Select Vehicle Type
+            </label>
+
+            <select id="compare-vehicle">
+
+                <option value="petrol">
+                    Petrol Car
+                </option>
+
+                <option value="diesel">
+                    Diesel Car
+                </option>
+
+                <option value="bike">
+                    Motorcycle
+                </option>
+
+            </select>
+
+            <button onclick="compareRoutes()">
+                Compare Routes
+            </button>
+
+        </div>
+
+
+        <!-- Route Comparison -->
+
+        <div id="comparison-result"></div>
+
+    </section>
+
+</body>
+
+</html>
